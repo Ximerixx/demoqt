@@ -1,0 +1,56 @@
+[
+{
+  "directory": "/home/ximerix/Projects/demoqt/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/ximerix/Projects/demoqt/build/demoqt_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtSql -g -std=gnu++17 -o CMakeFiles/demoqt.dir/demoqt_autogen/mocs_compilation.cpp.o -c /home/ximerix/Projects/demoqt/build/demoqt_autogen/mocs_compilation.cpp",
+  "file": "/home/ximerix/Projects/demoqt/build/demoqt_autogen/mocs_compilation.cpp",
+  "output": "/home/ximerix/Projects/demoqt/build/CMakeFiles/demoqt.dir/demoqt_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/ximerix/Projects/demoqt/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/ximerix/Projects/demoqt/build/demoqt_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtSql -g -std=gnu++17 -o CMakeFiles/demoqt.dir/src/main.cpp.o -c /home/ximerix/Projects/demoqt/src/main.cpp",
+  "file": "/home/ximerix/Projects/demoqt/src/main.cpp",
+  "output": "/home/ximerix/Projects/demoqt/build/CMakeFiles/demoqt.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/ximerix/Projects/demoqt/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/ximerix/Projects/demoqt/build/demoqt_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtSql -g -std=gnu++17 -o CMakeFiles/demoqt.dir/src/database.cpp.o -c /home/ximerix/Projects/demoqt/src/database.cpp",
+  "file": "/home/ximerix/Projects/demoqt/src/database.cpp",
+  "output": "/home/ximerix/Projects/demoqt/build/CMakeFiles/demoqt.dir/src/database.cpp.o"
+},
+{
+  "directory": "/home/ximerix/Projects/demoqt/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/ximerix/Projects/demoqt/build/demoqt_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtSql -g -std=gnu++17 -o CMakeFiles/demoqt.dir/src/passwordhash.cpp.o -c /home/ximerix/Projects/demoqt/src/passwordhash.cpp",
+  "file": "/home/ximerix/Projects/demoqt/src/passwordhash.cpp",
+  "output": "/home/ximerix/Projects/demoqt/build/CMakeFiles/demoqt.dir/src/passwordhash.cpp.o"
+},
+{
+  "directory": "/home/ximerix/Projects/demoqt/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/ximerix/Projects/demoqt/build/demoqt_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtSql -g -std=gnu++17 -o CMakeFiles/demoqt.dir/src/dbselectwindow.cpp.o -c /home/ximerix/Projects/demoqt/src/dbselectwindow.cpp",
+  "file": "/home/ximerix/Projects/demoqt/src/dbselectwindow.cpp",
+  "output": "/home/ximerix/Projects/demoqt/build/CMakeFiles/demoqt.dir/src/dbselectwindow.cpp.o"
+},
+{
+  "directory": "/home/ximerix/Projects/demoqt/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/ximerix/Projects/demoqt/build/demoqt_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtSql -g -std=gnu++17 -o CMakeFiles/demoqt.dir/src/newuserdialog.cpp.o -c /home/ximerix/Projects/demoqt/src/newuserdialog.cpp",
+  "file": "/home/ximerix/Projects/demoqt/src/newuserdialog.cpp",
+  "output": "/home/ximerix/Projects/demoqt/build/CMakeFiles/demoqt.dir/src/newuserdialog.cpp.o"
+},
+{
+  "directory": "/home/ximerix/Projects/demoqt/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/ximerix/Projects/demoqt/build/demoqt_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtSql -g -std=gnu++17 -o CMakeFiles/demoqt.dir/src/loginwindow.cpp.o -c /home/ximerix/Projects/demoqt/src/loginwindow.cpp",
+  "file": "/home/ximerix/Projects/demoqt/src/loginwindow.cpp",
+  "output": "/home/ximerix/Projects/demoqt/build/CMakeFiles/demoqt.dir/src/loginwindow.cpp.o"
+},
+{
+  "directory": "/home/ximerix/Projects/demoqt/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/ximerix/Projects/demoqt/build/demoqt_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtSql -g -std=gnu++17 -o CMakeFiles/demoqt.dir/src/mainwindow.cpp.o -c /home/ximerix/Projects/demoqt/src/mainwindow.cpp",
+  "file": "/home/ximerix/Projects/demoqt/src/mainwindow.cpp",
+  "output": "/home/ximerix/Projects/demoqt/build/CMakeFiles/demoqt.dir/src/mainwindow.cpp.o"
+},
+{
+  "directory": "/home/ximerix/Projects/demoqt/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/ximerix/Projects/demoqt/build/demoqt_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtSql -g -std=gnu++17 -o CMakeFiles/demoqt.dir/src/tabletab.cpp.o -c /home/ximerix/Projects/demoqt/src/tabletab.cpp",
+  "file": "/home/ximerix/Projects/demoqt/src/tabletab.cpp",
+  "output": "/home/ximerix/Projects/demoqt/build/CMakeFiles/demoqt.dir/src/tabletab.cpp.o"
+}
+]

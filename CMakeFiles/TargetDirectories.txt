@@ -1,0 +1,5 @@
+/home/ximerix/Projects/demoqt/CMakeFiles/demoqt.dir
+/home/ximerix/Projects/demoqt/CMakeFiles/edit_cache.dir
+/home/ximerix/Projects/demoqt/CMakeFiles/rebuild_cache.dir
+/home/ximerix/Projects/demoqt/CMakeFiles/demoqt_autogen_timestamp_deps.dir
+/home/ximerix/Projects/demoqt/CMakeFiles/demoqt_autogen.dir

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/ximerix/Projects/demoqt/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
