@@ -425,6 +425,8 @@ CMakeFiles/demoqt.dir/src/tabletab.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabbar.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qrubberband.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QHeaderView \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qheaderview.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QPlainTextEdit \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qplaintextedit.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtextedit.h \

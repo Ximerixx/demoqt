@@ -14,12 +14,12 @@ int main(int argc, char *argv[])
     LoginWindow loginWindow;
 
     QObject::connect(&dbSelectWindow, &DbSelectWindow::openExistingRequested, [&]() {
-        dbSelectWindow.close();
+        dbSelectWindow.accept();
         loginWindow.show();
     });
 
     QObject::connect(&dbSelectWindow, &DbSelectWindow::newDatabaseCreated, [&]() {
-        dbSelectWindow.close();
+        dbSelectWindow.accept();
         MainWindow *mainWindow = new MainWindow();
         mainWindow->setAttribute(Qt::WA_DeleteOnClose);
         mainWindow->show();
@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
     });
 
     QObject::connect(&loginWindow, &LoginWindow::loginSucceeded, [&]() {
-        loginWindow.close();
+        loginWindow.accept();
         MainWindow *mainWindow = new MainWindow();
         mainWindow->setAttribute(Qt::WA_DeleteOnClose);
         mainWindow->show();

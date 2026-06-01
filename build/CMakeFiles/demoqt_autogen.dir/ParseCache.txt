@@ -449,9 +449,9 @@
  mdp:/usr/lib/llvm-18/lib/clang/18/include/stdarg.h
  mdp:/usr/lib/llvm-18/lib/clang/18/include/stdbool.h
  mdp:/usr/lib/llvm-18/lib/clang/18/include/stddef.h
-/home/ximerix/Projects/demoqt/src/tabletab.cpp
+/home/ximerix/Projects/demoqt/src/main.cpp
 /home/ximerix/Projects/demoqt/src/dbselectwindow.cpp
-/home/ximerix/Projects/demoqt/src/database.h
+/home/ximerix/Projects/demoqt/src/tabletab.cpp
 /home/ximerix/Projects/demoqt/src/mainwindow.h
  mmc:Q_OBJECT
  mdp:/home/ximerix/Projects/demoqt/build/demoqt_autogen/moc_predefs.h
@@ -903,6 +903,8 @@
  mdp:/usr/lib/llvm-18/lib/clang/18/include/stdarg.h
  mdp:/usr/lib/llvm-18/lib/clang/18/include/stdbool.h
  mdp:/usr/lib/llvm-18/lib/clang/18/include/stddef.h
+/home/ximerix/Projects/demoqt/src/database.h
+/home/ximerix/Projects/demoqt/src/passwordhash.cpp
 /home/ximerix/Projects/demoqt/src/loginwindow.h
  mmc:Q_OBJECT
  mdp:/home/ximerix/Projects/demoqt/build/demoqt_autogen/moc_predefs.h
@@ -1353,8 +1355,6 @@
  mdp:/usr/lib/llvm-18/lib/clang/18/include/stdarg.h
  mdp:/usr/lib/llvm-18/lib/clang/18/include/stdbool.h
  mdp:/usr/lib/llvm-18/lib/clang/18/include/stddef.h
-/home/ximerix/Projects/demoqt/src/passwordhash.cpp
-/home/ximerix/Projects/demoqt/src/passwordhash.h
 /home/ximerix/Projects/demoqt/src/tabletab.h
  mmc:Q_OBJECT
  mdp:/home/ximerix/Projects/demoqt/build/demoqt_autogen/moc_predefs.h
@@ -1804,6 +1804,8 @@
  mdp:/usr/lib/llvm-18/lib/clang/18/include/stdarg.h
  mdp:/usr/lib/llvm-18/lib/clang/18/include/stdbool.h
  mdp:/usr/lib/llvm-18/lib/clang/18/include/stddef.h
+/home/ximerix/Projects/demoqt/src/passwordhash.h
+/home/ximerix/Projects/demoqt/src/loginwindow.cpp
 /home/ximerix/Projects/demoqt/src/dbselectwindow.h
  mmc:Q_OBJECT
  mdp:/home/ximerix/Projects/demoqt/build/demoqt_autogen/moc_predefs.h
@@ -2255,7 +2257,5 @@
  mdp:/usr/lib/llvm-18/lib/clang/18/include/stdbool.h
  mdp:/usr/lib/llvm-18/lib/clang/18/include/stddef.h
 /home/ximerix/Projects/demoqt/src/newuserdialog.cpp
-/home/ximerix/Projects/demoqt/src/loginwindow.cpp
 /home/ximerix/Projects/demoqt/src/database.cpp
-/home/ximerix/Projects/demoqt/src/main.cpp
 /home/ximerix/Projects/demoqt/src/mainwindow.cpp

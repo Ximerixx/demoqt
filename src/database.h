@@ -11,6 +11,7 @@ public:
 
     bool open(const QString &path);
     void close();
+    bool isOpen() const { return m_db.isOpen(); }
     QString lastError() const { return m_lastError; }
     QSqlDatabase connection() const { return m_db; }
     QString currentPath() const { return m_dbPath; }

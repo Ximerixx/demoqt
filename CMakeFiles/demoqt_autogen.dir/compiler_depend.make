@@ -7,11 +7,15 @@ demoqt_autogen/timestamp: CMakeFiles/4.2.2/CMakeCXXCompiler.cmake \
   demoqt_autogen/moc_predefs.h \
   src/database.cpp \
   src/database.h \
+  src/dbselectwindow.cpp \
+  src/dbselectwindow.h \
   src/loginwindow.cpp \
   src/loginwindow.h \
   src/main.cpp \
   src/mainwindow.cpp \
   src/mainwindow.h \
+  src/newuserdialog.cpp \
+  src/newuserdialog.h \
   src/passwordhash.cpp \
   src/passwordhash.h \
   src/tabletab.cpp \
@@ -614,81 +618,22 @@ demoqt_autogen/timestamp: CMakeFiles/4.2.2/CMakeCXXCompiler.cmake \
   /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-none.cmake \
   /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
   /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeCXXCompiler.cmake.in \
-  /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp \
   /usr/share/cmake-4.2/Modules/CMakeCXXInformation.cmake \
   /usr/share/cmake-4.2/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
   /usr/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeCompilerIdDetection.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeDetermineCompilerSupport.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake \
   /usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake \
   /usr/share/cmake-4.2/Modules/CMakeGenericSystem.cmake \
   /usr/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake \
   /usr/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeParseImplicitIncludeInfo.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeParseImplicitLinkInfo.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeParseLibraryArchitecture.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeSystem.cmake.in \
   /usr/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake \
   /usr/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeTestCompilerCommon.cmake \
-  /usr/share/cmake-4.2/Modules/CMakeUnixFindMake.cmake \
   /usr/share/cmake-4.2/Modules/CheckCXXCompilerFlag.cmake \
   /usr/share/cmake-4.2/Modules/CheckCXXSourceCompiles.cmake \
   /usr/share/cmake-4.2/Modules/CheckIncludeFileCXX.cmake \
   /usr/share/cmake-4.2/Modules/CheckLibraryExists.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/ADSP-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Borland-DetermineCompiler.cmake \
   /usr/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Clang-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Cray-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Diab-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/GHS-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   /usr/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake \
   /usr/share/cmake-4.2/Modules/Compiler/GNU.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/IAR-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Intel-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/MSVC-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/PGI-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/PathScale-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Renesas-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/SCO-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/TI-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/TIClang-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Tasking-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/Watcom-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-4.2/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   /usr/share/cmake-4.2/Modules/FeatureSummary.cmake \
   /usr/share/cmake-4.2/Modules/FindOpenGL.cmake \
   /usr/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake \
@@ -699,19 +644,15 @@ demoqt_autogen/timestamp: CMakeFiles/4.2.2/CMakeCXXCompiler.cmake \
   /usr/share/cmake-4.2/Modules/GNUInstallDirs.cmake \
   /usr/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake \
   /usr/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake \
-  /usr/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake \
-  /usr/share/cmake-4.2/Modules/Internal/CMakeInspectCXXLinker.cmake \
   /usr/share/cmake-4.2/Modules/Internal/CheckCompilerFlag.cmake \
   /usr/share/cmake-4.2/Modules/Internal/CheckFlagCommonConfig.cmake \
   /usr/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake \
-  /usr/share/cmake-4.2/Modules/Internal/FeatureTesting.cmake \
   /usr/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake \
   /usr/share/cmake-4.2/Modules/Linker/GNU.cmake \
   /usr/share/cmake-4.2/Modules/MacroAddFileDependencies.cmake \
   /usr/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake \
   /usr/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU-CXX.cmake \
   /usr/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU.cmake \
-  /usr/share/cmake-4.2/Modules/Platform/Linux-Determine-CXX.cmake \
   /usr/share/cmake-4.2/Modules/Platform/Linux-GNU-CXX.cmake \
   /usr/share/cmake-4.2/Modules/Platform/Linux-GNU.cmake \
   /usr/share/cmake-4.2/Modules/Platform/Linux-Initialize.cmake \
@@ -721,9 +662,9 @@ demoqt_autogen/timestamp: CMakeFiles/4.2.2/CMakeCXXCompiler.cmake \
 
 /usr/share/cmake-4.2/Modules/Platform/Linux-Initialize.cmake:
 
-/usr/share/cmake-4.2/Modules/Platform/Linux-Determine-CXX.cmake:
-
 /usr/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU-CXX.cmake:
+
+/usr/share/cmake-4.2/Modules/Linker/GNU.cmake:
 
 /usr/share/cmake-4.2/Modules/Internal/CheckFlagCommonConfig.cmake:
 
@@ -739,101 +680,21 @@ demoqt_autogen/timestamp: CMakeFiles/4.2.2/CMakeCXXCompiler.cmake \
 
 /usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:
 
-/usr/share/cmake-4.2/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/Tasking-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/SCO-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/Renesas-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/PGI-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/OrangeC-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/NVIDIA-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/NVHPC-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/MSVC-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/IAR-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/HP-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:
-
 /usr/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake:
 
-/usr/share/cmake-4.2/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/Embarcadero-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/CrayClang-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/Cray-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/Borland-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/AppleClang-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/ARMClang-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/ARMCC-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/ADSP-DetermineCompiler.cmake:
-
 /usr/share/cmake-4.2/Modules/CheckLibraryExists.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeUnixFindMake.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeTestCompilerCommon.cmake:
 
 /usr/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake:
 
 /usr/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake:
 
-/usr/share/cmake-4.2/Modules/CMakeParseLibraryArchitecture.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeParseImplicitIncludeInfo.cmake:
-
 /usr/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake:
 
 /usr/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake:
 
-/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:
-
-/usr/share/cmake-4.2/Modules/Linker/GNU.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/Clang-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeCompilerIdDetection.cmake:
-
 /usr/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake:
 
 /usr/share/cmake-4.2/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeCXXCompiler.cmake.in:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake:
 
@@ -901,8 +762,6 @@ demoqt_autogen/timestamp: CMakeFiles/4.2.2/CMakeCXXCompiler.cmake \
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake:
 
-/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:
-
 /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiConfig.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake:
@@ -921,7 +780,7 @@ demoqt_autogen/timestamp: CMakeFiles/4.2.2/CMakeCXXCompiler.cmake \
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusPrivate/Qt6DBusPrivateVersionlessAliasTargets.cmake:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+/usr/lib/x86_64-linux-gnu/cmake/Qt6DBusPrivate/Qt6DBusPrivateDependencies.cmake:
 
 /usr/include/c++/15/concepts:
 
@@ -953,10 +812,6 @@ demoqt_autogen/timestamp: CMakeFiles/4.2.2/CMakeCXXCompiler.cmake \
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qconstructormacros.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiPrivate/Qt6GuiPrivateVersionlessAliasTargets.cmake:
@@ -984,8 +839,6 @@ demoqt_autogen/timestamp: CMakeFiles/4.2.2/CMakeCXXCompiler.cmake \
 /usr/include/stdlib.h:
 
 /usr/include/sched.h:
-
-/usr/share/cmake-4.2/Modules/Compiler/Intel-DetermineCompiler.cmake:
 
 /usr/include/linux/stddef.h:
 
@@ -1017,13 +870,9 @@ demoqt_autogen/timestamp: CMakeFiles/4.2.2/CMakeCXXCompiler.cmake \
 
 /usr/share/cmake-4.2/Modules/MacroAddFileDependencies.cmake:
 
-/usr/share/cmake-4.2/Modules/Compiler/PathScale-DetermineCompiler.cmake:
-
 /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake:
 
 /usr/include/c++/15/tr1/special_function_util.h:
-
-/usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
@@ -1032,8 +881,6 @@ demoqt_autogen/timestamp: CMakeFiles/4.2.2/CMakeCXXCompiler.cmake \
 /usr/include/c++/15/tr1/riemann_zeta.tcc:
 
 /usr/include/c++/15/tr1/poly_laguerre.tcc:
-
-/usr/share/cmake-4.2/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qtypeinfo.h:
 
@@ -1061,8 +908,6 @@ demoqt_autogen/timestamp: CMakeFiles/4.2.2/CMakeCXXCompiler.cmake \
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qimage.h:
 
-/usr/share/cmake-4.2/Modules/Internal/CMakeInspectCXXLinker.cmake:
-
 /usr/include/c++/15/stdexcept:
 
 /usr/include/c++/15/bits/stl_map.h:
@@ -1072,8 +917,6 @@ demoqt_autogen/timestamp: CMakeFiles/4.2.2/CMakeCXXCompiler.cmake \
 /usr/include/c++/15/atomic:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Config.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/XL-CXX-DetermineCompiler.cmake:
 
 /usr/include/c++/15/set:
 
@@ -1113,11 +956,15 @@ demoqt_autogen/timestamp: CMakeFiles/4.2.2/CMakeCXXCompiler.cmake \
 
 /usr/include/c++/15/ext/string_conversions.h:
 
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Sql/Qt6SqlVersionlessAliasTargets.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6DBusPrivate/Qt6DBusPrivateTargets.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreDependencies.cmake:
+
 /usr/lib/x86_64-linux-gnu/cmake/Qt6CorePrivate/Qt6CorePrivateVersionlessAliasTargets.cmake:
 
 /usr/include/c++/15/ext/numeric_traits.h:
-
-/usr/share/cmake-4.2/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake:
 
 /usr/include/linux/types.h:
 
@@ -1151,11 +998,7 @@ demoqt_autogen/timestamp: CMakeFiles/4.2.2/CMakeCXXCompiler.cmake \
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringview.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-/usr/share/cmake-4.2/Modules/Compiler/GHS-DetermineCompiler.cmake:
-
-/usr/include/c++/15/bits/invoke.h:
+/usr/include/c++/15/cmath:
 
 /usr/include/c++/15/iterator:
 
@@ -1183,23 +1026,21 @@ src/database.h:
 
 /usr/include/c++/15/backward/auto_ptr.h:
 
-/usr/share/cmake-4.2/Modules/Compiler/TI-DetermineCompiler.cmake:
-
 /usr/include/c++/15/bits/exception_defines.h:
 
 /usr/include/c++/15/bits/cxxabi_forced.h:
 
-src/main.cpp:
-
 /usr/include/c++/15/compare:
 
+src/main.cpp:
+
 /usr/include/c++/15/bits/shared_ptr_atomic.h:
+
+/usr/include/c++/15/bits/stl_algo.h:
 
 /usr/include/c++/15/bits/basic_string.tcc:
 
 /usr/include/c++/15/bits/streambuf.tcc:
-
-/usr/include/c++/15/cmath:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
@@ -1221,6 +1062,12 @@ src/main.cpp:
 
 CMakeFiles/4.2.2/CMakeSystem.cmake:
 
+/usr/lib/x86_64-linux-gnu/cmake/Qt6DBusPrivate/Qt6DBusPrivateConfigVersion.cmake:
+
+/usr/include/c++/15/tr1/ell_integral.tcc:
+
+/usr/include/stdc-predef.h:
+
 /usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsTargets-none.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
@@ -1235,25 +1082,21 @@ src/passwordhash.cpp:
 
 /usr/include/pthread.h:
 
-/usr/include/time.h:
+/usr/include/c++/15/tuple:
 
-/usr/include/c++/15/tr1/hypergeometric.tcc:
+/usr/include/c++/15/array:
 
-/usr/share/cmake-4.2/Modules/FindOpenGL.cmake:
+/usr/include/c++/15/bits/allocator.h:
 
-src/passwordhash.h:
+src/loginwindow.h:
 
-/usr/include/c++/15/bits/char_traits.h:
-
-/usr/include/c++/15/cctype:
+/usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsTargets-none.cmake:
 
 src/loginwindow.cpp:
 
 /usr/include/c++/15/bits/uses_allocator.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject_impl.h:
-
-/usr/share/cmake-4.2/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake:
 
 /usr/include/c++/15/bits/specfun.h:
 
@@ -1263,25 +1106,17 @@ src/loginwindow.cpp:
 
 /usr/include/c++/15/bits/cpp_type_traits.h:
 
+src/database.cpp:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h:
+
+/usr/include/c++/15/bits/align.h:
+
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatastream.h:
 
 /usr/include/c++/15/bits/stl_set.h:
 
-/usr/include/c++/15/bits/ios_base.h:
-
-/usr/include/wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/c++/15/bits/align.h:
-
-/usr/include/c++/15/bits/allocator.h:
-
-src/loginwindow.h:
-
-/usr/include/c++/15/array:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsTargets-none.cmake:
+src/dbselectwindow.h:
 
 /usr/include/c++/15/bits/enable_special_members.h:
 
@@ -1289,9 +1124,23 @@ CMakeLists.txt:
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h:
 
-src/database.cpp:
+/usr/include/asm-generic/errno.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qconstructormacros.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qtcoreexports.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Targets.cmake:
+
+/usr/include/c++/15/bits/node_handle.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
@@ -1305,17 +1154,65 @@ src/mainwindow.cpp:
 
 /usr/include/c++/15/bits/stl_construct.h:
 
-/usr/include/asm-generic/errno.h:
+src/newuserdialog.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+/usr/include/c++/15/bits/stl_numeric.h:
 
-/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h:
+/usr/lib/x86_64-linux-gnu/cmake/Qt6Sql/Qt6SqlAdditionalTargetInfo.cmake:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6CorePrivate/Qt6CorePrivateConfigVersionImpl.cmake:
 
 /usr/include/alloca.h:
 
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h:
+
+/usr/share/cmake-4.2/Modules/Platform/Linux-GNU.cmake:
+
+/usr/include/c++/15/cstdint:
+
+/usr/include/c++/15/bits/stl_pair.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicFindPackageHelpers.cmake:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qminmax.h:
+
+/usr/include/c++/15/bits/stl_tempbuf.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qpair.h:
+
+/usr/include/c++/15/cstdlib:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qfunctionaltools_impl.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qaction.h:
+
+/usr/share/cmake-4.2/Modules/Compiler/GNU.cmake:
+
+/usr/include/c++/15/bits/requires_hosted.h:
+
+/usr/include/time.h:
+
+/usr/include/c++/15/tr1/hypergeometric.tcc:
+
+/usr/share/cmake-4.2/Modules/FindOpenGL.cmake:
+
+src/passwordhash.h:
+
+/usr/include/c++/15/bits/char_traits.h:
+
+/usr/include/c++/15/cctype:
+
 /usr/include/c++/15/ext/type_traits.h:
+
+src/dbselectwindow.cpp:
 
 demoqt_autogen/moc_predefs.h:
 
@@ -1329,15 +1226,23 @@ demoqt_autogen/moc_predefs.h:
 
 /usr/include/c++/15/bits/functional_hash.h:
 
+src/tabletab.cpp:
+
 /usr/share/cmake-4.2/Modules/Platform/Linux.cmake:
 
 /usr/include/c++/15/bits/erase_if.h:
 
 /usr/include/c++/15/bits/stringfwd.h:
 
+src/newuserdialog.cpp:
+
 CMakeFiles/4.2.2/CMakeCXXCompiler.cmake:
 
-src/tabletab.cpp:
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/wchar.h:
+
+/usr/include/c++/15/bits/ios_base.h:
 
 /usr/include/c++/15/bits/shared_ptr_base.h:
 
@@ -1355,24 +1260,6 @@ src/tabletab.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
-/usr/include/c++/15/tuple:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qpair.h:
-
-/usr/include/c++/15/cstdlib:
-
-/usr/share/cmake-4.2/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qfunctionaltools_impl.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qaction.h:
-
-/usr/share/cmake-4.2/Modules/Compiler/GNU.cmake:
-
-/usr/include/c++/15/bits/requires_hosted.h:
-
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
@@ -1385,14 +1272,6 @@ src/tabletab.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicPluginHelpers_v2.cmake:
 
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h:
-
-/usr/include/c++/15/bits/stl_tempbuf.h:
-
 /usr/include/c++/15/version:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6GuiPrivate/Qt6GuiPrivateAdditionalTargetInfo.cmake:
@@ -1401,15 +1280,13 @@ src/tabletab.h:
 
 /usr/include/c++/15/bits/allocated_ptr.h:
 
-/usr/share/cmake-4.2/Modules/Compiler/Clang-DetermineCompilerInternal.cmake:
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/c++/15/bits/invoke.h:
 
 /usr/include/c++/15/bits/locale_classes.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
-/usr/bin/cmake:
 
 /usr/include/c++/15/bits/unordered_map.h:
 
@@ -1443,8 +1320,6 @@ src/tabletab.h:
 
 /usr/include/c++/15/bits/unordered_set.h:
 
-/usr/include/c++/15/bits/node_handle.h:
-
 /usr/include/c++/15/debug/debug.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
@@ -1460,8 +1335,6 @@ src/tabletab.h:
 /usr/include/c++/15/bits/parse_numbers.h:
 
 /usr/include/c++/15/bits/postypes.h:
-
-/usr/share/cmake-4.2/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake:
 
 /usr/include/c++/15/bits/range_access.h:
 
@@ -1508,24 +1381,6 @@ src/tabletab.h:
 /usr/include/c++/15/bits/stl_relops.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTargetHelpers.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicFindPackageHelpers.cmake:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qminmax.h:
-
-/usr/share/cmake-4.2/Modules/Platform/Linux-GNU.cmake:
-
-/usr/include/c++/15/cstdint:
-
-/usr/include/c++/15/bits/stl_pair.h:
-
-/usr/include/c++/15/bits/stl_numeric.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6Sql/Qt6SqlAdditionalTargetInfo.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6CorePrivate/Qt6CorePrivateConfigVersionImpl.cmake:
 
 /usr/include/c++/15/bits/stl_tree.h:
 
@@ -1595,10 +1450,6 @@ src/tabletab.h:
 
 /usr/include/c++/15/bits/string_view.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/features-time64.h:
-
 /usr/include/c++/15/bits/uniform_int_dist.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateTargets.cmake:
@@ -1613,8 +1464,6 @@ src/tabletab.h:
 
 /usr/include/c++/15/bits/new_allocator.h:
 
-/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerSupport.cmake:
-
 /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h:
 
 /usr/include/c++/15/bits/version.h:
@@ -1625,7 +1474,15 @@ src/tabletab.h:
 
 /usr/include/c++/15/climits:
 
-/usr/include/c++/15/bits/stl_algo.h:
+/usr/include/features-time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/bin/cmake:
+
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
@@ -1731,10 +1588,6 @@ src/tabletab.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qchar.h:
 
-/usr/share/cmake-4.2/Modules/Compiler/Diab-DetermineCompiler.cmake:
-
-/usr/share/cmake-4.2/Modules/CMakeSystem.cmake.in:
-
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qcompare.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterator.h:
@@ -1754,8 +1607,6 @@ src/tabletab.h:
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontainerfwd.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontainerinfo.h:
-
-/usr/share/cmake-4.2/Modules/Internal/FeatureTesting.cmake:
 
 /usr/include/c++/15/bits/list.tcc:
 
@@ -1803,8 +1654,6 @@ src/tabletab.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qtnoop.h:
 
-/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:
-
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qmetatype.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qnumeric.h:
@@ -1812,12 +1661,6 @@ src/tabletab.h:
 /usr/include/c++/15/bits/stl_uninitialized.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qobjectdefs_impl.h:
-
-/usr/include/c++/15/tr1/ell_integral.tcc:
-
-/usr/include/stdc-predef.h:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6DBusPrivate/Qt6DBusPrivateConfigVersion.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qoverload.h:
 
@@ -1846,8 +1689,6 @@ src/tabletab.h:
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qset.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata.h:
-
-/usr/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata_impl.h:
 
@@ -1889,19 +1730,13 @@ src/tabletab.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringmatcher.h:
 
-/usr/share/cmake-4.2/Modules/CMakeParseImplicitLinkInfo.cmake:
-
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringtokenizer.h:
-
-/usr/share/cmake-4.2/Modules/Compiler/TIClang-DetermineCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qsystemdetection.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qglobalstatic.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qtclasshelpermacros.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qtcoreexports.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qalgorithms.h:
 
@@ -2003,8 +1838,6 @@ src/tabletab.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Dependencies.cmake:
 
-/usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Targets.cmake:
-
 /usr/share/cmake-4.2/Modules/CMakeGenericSystem.cmake:
 
 /usr/include/c++/15/bits/std_function.h:
@@ -2016,8 +1849,6 @@ src/tabletab.h:
 /usr/include/c++/15/bits/refwrap.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtInstallPaths.cmake:
-
-/usr/share/cmake-4.2/Modules/Compiler/Watcom-DetermineCompiler.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicAppleHelpers.cmake:
 
@@ -2078,8 +1909,6 @@ src/mainwindow.h:
 /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicSbomQtEntityHelpers.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicTestHelpers.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6DBusPrivate/Qt6DBusPrivateDependencies.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicToolHelpers.cmake:
 
@@ -2144,9 +1973,3 @@ src/mainwindow.h:
 /usr/include/c++/15/bits/stl_bvector.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6DBusPrivate/Qt6DBusPrivateConfig.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6Sql/Qt6SqlVersionlessAliasTargets.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreDependencies.cmake:
-
-/usr/lib/x86_64-linux-gnu/cmake/Qt6DBusPrivate/Qt6DBusPrivateTargets.cmake:

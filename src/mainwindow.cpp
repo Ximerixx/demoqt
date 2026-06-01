@@ -5,6 +5,7 @@
 #include <QVBoxLayout>
 #include <QWidget>
 #include <QLabel>
+#include <QDebug>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -21,16 +22,34 @@ MainWindow::MainWindow(QWidget *parent)
 
 void MainWindow::setupTabs()
 {
-    QStringList tables = Database::instance().tableNames();
-    for (const QString &tableName : tables) {
-        TableTab *tab = new TableTab(tableName, this);
-        m_tabWidget->addTab(tab, tableName);
-    }
-
-    if (tables.isEmpty()) {
+    Database &db = Database::instance();
+    if (!db.isOpen()) {
+        qWarning("MainWindow::setupTabs: база данных не открыта");
         QWidget *placeholder = new QWidget(this);
         QVBoxLayout *layout = new QVBoxLayout(placeholder);
-        layout->addWidget(new QLabel(tr("Нет таблиц в базе данных."), this));
+        layout->addWidget(new QLabel(tr("База данных не открыта."), placeholder));
+        m_tabWidget->addTab(placeholder, tr("Нет данных"));
+        return;
+    }
+
+    QStringList tables = db.tableNames();
+    qDebug("MainWindow::setupTabs: таблиц в БД: %d", static_cast<int>(tables.size()));
+
+    for (const QString &tableName : tables) {
+        if (tableName.isEmpty())
+            continue;
+        TableTab *tab = new TableTab(tableName, m_tabWidget);
+        if (tab->isValid()) {
+            m_tabWidget->addTab(tab, tableName);
+        } else {
+            tab->deleteLater();
+        }
+    }
+
+    if (m_tabWidget->count() == 0) {
+        QWidget *placeholder = new QWidget(this);
+        QVBoxLayout *layout = new QVBoxLayout(placeholder);
+        layout->addWidget(new QLabel(tr("Нет таблиц в базе данных."), placeholder));
         m_tabWidget->addTab(placeholder, tr("Нет данных"));
     }
 }
